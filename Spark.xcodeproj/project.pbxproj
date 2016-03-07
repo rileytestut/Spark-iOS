@@ -1,0 +1,307 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 47;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BFC50BCD1C8E1AF2008F0B75 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC50BCC1C8E1AF2008F0B75 /* AppDelegate.swift */; };
+		BFC50BCF1C8E1AF2008F0B75 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC50BCE1C8E1AF2008F0B75 /* ViewController.swift */; };
+		BFC50BD21C8E1AF2008F0B75 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFC50BD01C8E1AF2008F0B75 /* Main.storyboard */; };
+		BFC50BD41C8E1AF2008F0B75 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFC50BD31C8E1AF2008F0B75 /* Assets.xcassets */; };
+		BFC50BD71C8E1AF2008F0B75 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFC50BD51C8E1AF2008F0B75 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BFC50BC91C8E1AF2008F0B75 /* Spark.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Spark.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFC50BCC1C8E1AF2008F0B75 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BFC50BCE1C8E1AF2008F0B75 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BFC50BD11C8E1AF2008F0B75 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BFC50BD31C8E1AF2008F0B75 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BFC50BD61C8E1AF2008F0B75 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BFC50BD81C8E1AF2008F0B75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BFC50BC61C8E1AF2008F0B75 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BFC50BC01C8E1AF2008F0B75 = {
+			isa = PBXGroup;
+			children = (
+				BFC50BCB1C8E1AF2008F0B75 /* Spark */,
+				BFC50BCA1C8E1AF2008F0B75 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BFC50BCA1C8E1AF2008F0B75 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BFC50BC91C8E1AF2008F0B75 /* Spark.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BFC50BCB1C8E1AF2008F0B75 /* Spark */ = {
+			isa = PBXGroup;
+			children = (
+				BFC50BCC1C8E1AF2008F0B75 /* AppDelegate.swift */,
+				BFC50BCE1C8E1AF2008F0B75 /* ViewController.swift */,
+				BFC50BD01C8E1AF2008F0B75 /* Main.storyboard */,
+				BFC50BE01C8E1B54008F0B75 /* Resources */,
+				BFC50BDF1C8E1B4E008F0B75 /* Supporting Files */,
+			);
+			path = Spark;
+			sourceTree = "<group>";
+		};
+		BFC50BDF1C8E1B4E008F0B75 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BFC50BD81C8E1AF2008F0B75 /* Info.plist */,
+				BFC50BD51C8E1AF2008F0B75 /* LaunchScreen.storyboard */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BFC50BE01C8E1B54008F0B75 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BFC50BD31C8E1AF2008F0B75 /* Assets.xcassets */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BFC50BC81C8E1AF2008F0B75 /* Spark */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFC50BDB1C8E1AF2008F0B75 /* Build configuration list for PBXNativeTarget "Spark" */;
+			buildPhases = (
+				BFC50BC51C8E1AF2008F0B75 /* Sources */,
+				BFC50BC61C8E1AF2008F0B75 /* Frameworks */,
+				BFC50BC71C8E1AF2008F0B75 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Spark;
+			productName = Spark;
+			productReference = BFC50BC91C8E1AF2008F0B75 /* Spark.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFC50BC11C8E1AF2008F0B75 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Spark SC";
+				TargetAttributes = {
+					BFC50BC81C8E1AF2008F0B75 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = BFC50BC41C8E1AF2008F0B75 /* Build configuration list for PBXProject "Spark" */;
+			compatibilityVersion = "Xcode 6.3";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BFC50BC01C8E1AF2008F0B75;
+			productRefGroup = BFC50BCA1C8E1AF2008F0B75 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BFC50BC81C8E1AF2008F0B75 /* Spark */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BFC50BC71C8E1AF2008F0B75 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFC50BD71C8E1AF2008F0B75 /* LaunchScreen.storyboard in Resources */,
+				BFC50BD41C8E1AF2008F0B75 /* Assets.xcassets in Resources */,
+				BFC50BD21C8E1AF2008F0B75 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BFC50BC51C8E1AF2008F0B75 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFC50BCF1C8E1AF2008F0B75 /* ViewController.swift in Sources */,
+				BFC50BCD1C8E1AF2008F0B75 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BFC50BD01C8E1AF2008F0B75 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BFC50BD11C8E1AF2008F0B75 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BFC50BD51C8E1AF2008F0B75 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BFC50BD61C8E1AF2008F0B75 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BFC50BD91C8E1AF2008F0B75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BFC50BDA1C8E1AF2008F0B75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BFC50BDC1C8E1AF2008F0B75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Spark/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.sparksc.Spark;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BFC50BDD1C8E1AF2008F0B75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Spark/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.sparksc.Spark;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BFC50BC41C8E1AF2008F0B75 /* Build configuration list for PBXProject "Spark" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFC50BD91C8E1AF2008F0B75 /* Debug */,
+				BFC50BDA1C8E1AF2008F0B75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFC50BDB1C8E1AF2008F0B75 /* Build configuration list for PBXNativeTarget "Spark" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFC50BDC1C8E1AF2008F0B75 /* Debug */,
+				BFC50BDD1C8E1AF2008F0B75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFC50BC11C8E1AF2008F0B75 /* Project object */;
+}
