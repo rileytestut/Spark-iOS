@@ -1,0 +1,3 @@
+[submodule "Flint"]
+	path = Flint
+	url = git@github.com:rileytestut/Flint.git
