@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BF7E71791CA9DFFC009B0E33 /* Roxas.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF7E71781CA9DFFC009B0E33 /* Roxas.framework */; };
+		BF7E717A1CA9DFFC009B0E33 /* Roxas.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BF7E71781CA9DFFC009B0E33 /* Roxas.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		BF814EFD1C8E240400A89E90 /* Flint.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF814EFC1C8E240400A89E90 /* Flint.framework */; };
 		BF814EFE1C8E240400A89E90 /* Flint.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BF814EFC1C8E240400A89E90 /* Flint.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		BFC50BCD1C8E1AF2008F0B75 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC50BCC1C8E1AF2008F0B75 /* AppDelegate.swift */; };
@@ -25,6 +27,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				BF7E717A1CA9DFFC009B0E33 /* Roxas.framework in Embed Frameworks */,
 				BF814EFE1C8E240400A89E90 /* Flint.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
@@ -33,6 +36,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		BF7E71781CA9DFFC009B0E33 /* Roxas.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Roxas.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF814EFC1C8E240400A89E90 /* Flint.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Flint.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFC50BC91C8E1AF2008F0B75 /* Spark.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Spark.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFC50BCC1C8E1AF2008F0B75 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -50,6 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF7E71791CA9DFFC009B0E33 /* Roxas.framework in Frameworks */,
 				BF814EFD1C8E240400A89E90 /* Flint.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -61,6 +66,7 @@
 			isa = PBXGroup;
 			children = (
 				BF814EFC1C8E240400A89E90 /* Flint.framework */,
+				BF7E71781CA9DFFC009B0E33 /* Roxas.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
