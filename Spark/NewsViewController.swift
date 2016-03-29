@@ -9,6 +9,12 @@
 import UIKit
 
 class NewsViewController: UITableViewController {
+    
+    private(set) var items = [
+                                NewsItem(title: "Spark SC hosts third Startup Career Fair", date: NSDate(), text: "Wow, I love my sample news text. Incredible potential!"),
+                                NewsItem(title: "Developer wunderkind Riley Testut announces Delta emulator", date: NSDate(), text: "This video game emulator is set to change the way you play on mobile."),
+                                NewsItem(title: "President Cherrie Wang celebrates 20 years of production status", date: NSDate(), text: "Wow, I love my sample news text. Incredible potential!")
+                             ]
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -32,14 +38,14 @@ class NewsViewController: UITableViewController {
     }
 
     override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 3
+        return items.count
     }
 
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCellWithIdentifier("reuseIdentifier", forIndexPath: indexPath)
 
         // Configure the cell...
-        cell.textLabel?.text = "words"
+        cell.textLabel?.text = items[indexPath.row].title
 
         return cell
     }

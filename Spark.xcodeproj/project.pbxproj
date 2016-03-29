@@ -18,6 +18,7 @@
 		BFC50BD71C8E1AF2008F0B75 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFC50BD51C8E1AF2008F0B75 /* LaunchScreen.storyboard */; };
 		BFC50BE41C8E1E50008F0B75 /* EventsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC50BE31C8E1E50008F0B75 /* EventsViewController.swift */; };
 		BFC50BE61C8E1E5B008F0B75 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC50BE51C8E1E5B008F0B75 /* ProfileViewController.swift */; };
+		D81B2C3A1CAA2521004BC106 /* NewsItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D81B2C391CAA2521004BC106 /* NewsItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -47,6 +48,7 @@
 		BFC50BD81C8E1AF2008F0B75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BFC50BE31C8E1E50008F0B75 /* EventsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventsViewController.swift; sourceTree = "<group>"; };
 		BFC50BE51C8E1E5B008F0B75 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		D81B2C391CAA2521004BC106 /* NewsItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +125,7 @@
 			isa = PBXGroup;
 			children = (
 				9CAC6C701CAA0F09009A4608 /* NewsViewController.swift */,
+				D81B2C391CAA2521004BC106 /* NewsItem.swift */,
 			);
 			name = News;
 			sourceTree = "<group>";
@@ -216,6 +219,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BFC50BE41C8E1E50008F0B75 /* EventsViewController.swift in Sources */,
+				D81B2C3A1CAA2521004BC106 /* NewsItem.swift in Sources */,
 				BFC50BE61C8E1E5B008F0B75 /* ProfileViewController.swift in Sources */,
 				BFC50BCD1C8E1AF2008F0B75 /* AppDelegate.swift in Sources */,
 				9CAC6C711CAA0F09009A4608 /* NewsViewController.swift in Sources */,
