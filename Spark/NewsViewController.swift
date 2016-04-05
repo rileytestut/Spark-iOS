@@ -42,10 +42,14 @@ class NewsViewController: UITableViewController {
     }
 
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCellWithIdentifier("reuseIdentifier", forIndexPath: indexPath)
-
+        
+        let cell = tableView.dequeueReusableCellWithIdentifier("reuseIdentifier", forIndexPath: indexPath) as! NewsTableViewCell
+        
         // Configure the cell...
-        cell.textLabel?.text = items[indexPath.row].title
+        
+        cell.titleLabel.text = items[indexPath.row].title
+        //cell.dateLabel.text = items[indexPath.row].date
+        cell.descriptionLabel.text = items[indexPath.row].text
 
         return cell
     }
