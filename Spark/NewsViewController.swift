@@ -89,14 +89,20 @@ class NewsViewController: UITableViewController {
     }
     */
 
-    /*
+    
     // MARK: - Navigation
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
         // Get the new view controller using segue.destinationViewController.
         // Pass the selected object to the new view controller.
+        if (segue.identifier == "SelectRowIdentifier") {
+            let destinationViewController = segue.destinationViewController as! NewsDetailViewController
+            if let indexPath = self.tableView.indexPathForSelectedRow {
+                destinationViewController.setDetailItem(items[indexPath.row].title, description:  items[indexPath.row].text)
+            }
+        }
     }
-    */
+    
 
 }
