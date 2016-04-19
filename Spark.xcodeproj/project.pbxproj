@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		9CAC6C711CAA0F09009A4608 /* NewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CAC6C701CAA0F09009A4608 /* NewsViewController.swift */; };
+		9CFC89371CC5C09400939E1F /* EventsItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CFC89361CC5C09400939E1F /* EventsItem.swift */; };
 		BF7E71791CA9DFFC009B0E33 /* Roxas.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF7E71781CA9DFFC009B0E33 /* Roxas.framework */; };
 		BF7E717A1CA9DFFC009B0E33 /* Roxas.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BF7E71781CA9DFFC009B0E33 /* Roxas.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		BF814EFD1C8E240400A89E90 /* Flint.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF814EFC1C8E240400A89E90 /* Flint.framework */; };
@@ -40,6 +41,7 @@
 
 /* Begin PBXFileReference section */
 		9CAC6C701CAA0F09009A4608 /* NewsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsViewController.swift; sourceTree = "<group>"; };
+		9CFC89361CC5C09400939E1F /* EventsItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventsItem.swift; sourceTree = "<group>"; };
 		BF7E71781CA9DFFC009B0E33 /* Roxas.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Roxas.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF814EFC1C8E240400A89E90 /* Flint.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Flint.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFC50BC91C8E1AF2008F0B75 /* Spark.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Spark.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -140,6 +142,7 @@
 			isa = PBXGroup;
 			children = (
 				BFC50BE31C8E1E50008F0B75 /* EventsViewController.swift */,
+				9CFC89361CC5C09400939E1F /* EventsItem.swift */,
 			);
 			name = Events;
 			sourceTree = "<group>";
@@ -231,6 +234,7 @@
 				BFC50BE61C8E1E5B008F0B75 /* ProfileViewController.swift in Sources */,
 				BFC50BCD1C8E1AF2008F0B75 /* AppDelegate.swift in Sources */,
 				9CAC6C711CAA0F09009A4608 /* NewsViewController.swift in Sources */,
+				9CFC89371CC5C09400939E1F /* EventsItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
